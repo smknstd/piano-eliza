@@ -7,7 +7,7 @@ soundManager.onready( function() {
 		soundManager.createSound( {
 			id		: 'sound'+i,
 			type	: 'audio/mp3',
-			url		: '../notes/note'+i+'.mp3',
+			url		: 'notes/note'+i+'.mp3',
 			autoLoad: true,
 			autoPlay: false,
 			volume	: 100,
